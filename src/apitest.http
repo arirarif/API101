@@ -1,0 +1,66 @@
+GET http://localhost:4000/health
+
+
+###
+
+
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name": "Rokibul Islam",
+    "country": "BD",
+    "rank": 2
+}
+
+###
+
+GET http://localhost:4000
+
+###
+
+GET http://localhost:4000/03BK3Vllo
+
+###
+
+GET http://localhost:4000/Elet5MQp3
+
+###
+
+PATCH http://localhost:4000/Elet5MQp3
+Content-Type: application/json
+
+{
+    "name": "rohomot ullah"
+}
+
+
+###
+
+PUT http://localhost:4000/Elet5MQp3
+Content-Type: application/json
+
+{
+    "name": "Belalf Mia",
+    "country": "BD",
+    "rank": 2
+}
+
+
+###
+
+
+PUT http://localhost:4000/Elet5MQp3ads
+Content-Type: application/json
+
+{
+    "name": "Shakib Mia",
+    "country": "BD",
+    "rank": 2
+}
+
+
+###
+
+
+DELETE http://localhost:4000/PLZKCv5cX
